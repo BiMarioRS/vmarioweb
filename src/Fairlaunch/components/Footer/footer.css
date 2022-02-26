@@ -1,0 +1,16 @@
+.footer-container {
+  margin-top: 1rem;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: calc(100% - var(--spacing) * 2);
+  max-width: 1000px;
+  justify-content: space-between;
+  padding: 0 25px 0px 25px;
+}
+
+.contact h3,
+.copyright h3 {
+  color: var(--clr-primary-txt);
+  font-size: var(--font-medium);
+}

@@ -1,0 +1,47 @@
+.channel-content {
+  width: 100%;
+  height: 100%;
+  background: var(--overlay-yt), url(../../../assets/img/backyt.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110%;
+  border-radius: 25px;
+  box-shadow: var(--shadow);
+}
+
+.info-yt-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.yt-logo {
+  width: 8rem;
+  filter: drop-shadow(var(--shadow2));
+}
+
+.text-container {
+  text-align: center;
+  width: 70%;
+  margin-bottom: 1.5rem;
+}
+.text-container h1 {
+  font-size: var(--font-large);
+  color: var(--clr-primary-txt);
+  white-space: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .info-yt-content {
+    flex-direction: row;
+  }
+  .yt-logo {
+    width: 5rem;
+  }
+  .text-container {
+    margin-bottom: 0;
+  }
+}

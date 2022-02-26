@@ -1,0 +1,79 @@
+.info-vmario-content {
+  width: 100%;
+  height: 100%;
+  background-color: #00b712;
+  background: var(--gradient-overlay),
+    url(../../../assets/img/BANNER\ vMario.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130%;
+  border-radius: 25px;
+  box-shadow: var(--shadow);
+}
+
+.container-content-vmario {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  height: 100%;
+}
+
+.name-heading h1 {
+  color: var(--clr-primary-txt);
+  font-size: var(--font-xl);
+  justify-self: center;
+}
+
+.subs-count h2,
+h4 {
+  color: var(--clr-primary-txt);
+  text-align: center;
+  line-height: 110%;
+  margin-bottom: 0 !important;
+}
+
+.subs-number {
+  display: flex;
+}
+
+.num-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.274);
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  border-radius: 10px;
+  width: 30px;
+  height: 35px;
+}
+
+@media screen and (max-width: 1200px) {
+  .info-vmario-content {
+    background-size: 150%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .info-vmario-content {
+    background-size: 210%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info-vmario-content {
+    background-size: 280%;
+  }
+}
+
+@media screen and (max-width: 514px) {
+  .name-heading h1 {
+    margin-bottom: 0;
+  }
+
+  .container-content-vmario {
+    justify-content: center;
+    align-content: center;
+    display: grid;
+  }
+}
