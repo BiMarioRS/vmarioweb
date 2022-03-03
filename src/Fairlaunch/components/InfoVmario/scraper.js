@@ -1,24 +1,6 @@
 const puppeteer = require("puppeteer-extra");
 const pluginStealth = require("puppeteer-extra-plugin-stealth");
 puppeteer.use(pluginStealth());
-
-async function scrapeProduct(url) {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  await page.goto(url);
-
-  const [el] = await page.$x("//*[@id='rawCount']");
-  const txt = await el.getProperty("textContent");
-  const subs = await txt.jsonValue();
-  console.log({ subs });
-  return subs;
-
-  browser.close();
-}
-
-const puppeteer = require("puppeteer-extra");
-const pluginStealth = require("puppeteer-extra-plugin-stealth");
-puppeteer.use(pluginStealth());
 const express = require("express");
 
 const app = express();

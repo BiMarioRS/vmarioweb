@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.css"
 import Content from "./Fairlaunch/Content/Content";
 import Toggle from "./Fairlaunch/components/Toggle/Toggle";
 import { useState } from "react";
