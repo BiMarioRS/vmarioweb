@@ -30,6 +30,7 @@
     "web-vitals": "^1.0.1"
   },
   "homepage": ".",
+  "proxy":"http://localhost:5000/",  
   "scripts": {
     "start": "yarn run build && (cd server && yarn start)",
     "build": "react-scripts build",
