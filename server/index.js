@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 
 app.get("/api/hello", (req, res, next) =>{
 
-  res.send({express: {data}})
+  res.send({express: "aqui van los subs"})
   next()
 
 })
