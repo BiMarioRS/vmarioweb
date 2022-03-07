@@ -20,25 +20,25 @@ function Boxes() {
           <InfoVmario />
         </div>
         <div className="first-channel-container">
-          <FirstChannel />
+          <a href="/" target="_blank"><FirstChannel /></a>
         </div>
         <div className="second-channel-container">
-          <SecondChannel />
+        <a href="/" target="_blank"><SecondChannel /></a>
         </div>
         <div className="instagram-container">
-          <Instagram />
+        <a href="/" target="_blank"><Instagram /></a>
         </div>
         <div className="twitch-container">
-          <Twitch />
+        <a href="/" target="_blank"><Twitch /></a>
         </div>
         <div className="twitter-container">
-          <Twitter />
+        <a href="/" target="_blank"><Twitter /></a>
         </div>
         <div className="nauticmc-container">
-          <NauticMC />
+        <a href="/" target="_blank"><NauticMC /></a>
         </div>
         <div className="tiktok-container">
-          <Tiktok />
+        <a href="/" target="_blank"><Tiktok /></a>
         </div>
       </div>
     </div>
