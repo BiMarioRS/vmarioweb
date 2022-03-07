@@ -92,9 +92,13 @@
 @media screen and (max-width: 514px) {
   :root {
     --font-xl: 30px;
+    --font-large: 25px;
+    --font-medium: 20px;
   }
 
   [data-theme="dark"] {
     --font-xl: 30px;
+    --font-large: 25px;
+    --font-medium: 20px;
   }
 }

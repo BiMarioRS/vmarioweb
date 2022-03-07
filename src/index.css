@@ -5,16 +5,15 @@
 }
 
 body {
-  background-image: var(--clr-secondary-bck);
   font-family: Fredoka One;
-}
-
-html {
-  background-image: var(--clr-secondary-bck);
+  overflow-x: hidden;
+  margin: 0 !important;
 }
 
 .App {
   background-image: var(--clr-secondary-bck);
+
+  width: 100%;
 }
 
 .toggle {

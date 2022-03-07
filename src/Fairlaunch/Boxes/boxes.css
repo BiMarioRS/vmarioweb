@@ -1,18 +1,16 @@
 .grid-container {
   margin-top: 2rem;
-  width: 100%;
-  padding: 0 50px 0px 50px;
-  height: 70%;
+  width: -webkit-fill-available;
+  height: 80%;
   place-items: center;
   display: flex;
   justify-content: center;
-  width: calc(100% - var(--spacing) * 2);
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .info-content {
-  max-width: 1200px;
-  width: 100%;
+  width: 80%;
+  height: 80%;
   justify-content: center;
   display: grid;
   align-content: center;
@@ -153,6 +151,8 @@
   }
 
   .info-content {
+    padding: 1rem;
+    width: 100%;
     grid-template-columns: [first] 20% [line2] 20% [line3] 20% [col4-start] 20% [five] 20% [end];
     grid-template-rows: [row1-start] 120px [row1-end] 120px [third-line] 120px [four-line] 120px [five-line] 120px [six-line] 120px [seven-line] 120px [eight-line] 120px [last-line];
   }
