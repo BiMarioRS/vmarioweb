@@ -2,6 +2,7 @@ import React from "react";
 import "./rrss.css";
 
 import iglogo from "../../../assets/img/instagram.svg";
+import twitchlogo from "../../../assets/img/twitch.svg";
 import tiktoklogo from "../../../assets/img/tiktok.svg";
 import twitterlogo from "../../../assets/img/twitter.svg";
 
@@ -29,7 +30,7 @@ export const Twitch = () => {
           <h1 className="rrss">Twitch</h1>
         </div>
         <div className="rrss-logo-container">
-          <img className="rss-logo" src={iglogo}></img>
+          <img className="rss-logo" src={twitchlogo}></img>
         </div>
       </div>
     </div>
