@@ -6,6 +6,7 @@
 }
 
 body {
+  text-shadow: -2px 2px 2px rgb(0 0 0 / 15%);
   font-family: Fredoka One;
   overflow-x: hidden;
   margin: 0 !important;
