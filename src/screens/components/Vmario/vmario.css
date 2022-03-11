@@ -19,13 +19,13 @@
   display: flex;
 }
 
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 1210px) {
   .container-image {
     background-size: 200%;
   }
 }
 
-@media screen and (max-width: 961px) {
+@media screen and (max-width: 1042px) {
   .container-image {
     background-size: 265%;
   }

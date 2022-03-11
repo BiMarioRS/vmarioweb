@@ -6,7 +6,12 @@ function Footer() {
     <div className="footer-container">
       <div className="contact-container">
         <div className="contact">
-          <h3>Contáctame</h3>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=vmario@ageworld-agency.com"
+            target="_blank"
+          >
+            <h3>Contáctame</h3>
+          </a>
         </div>
       </div>
       <div className="copyright-container">

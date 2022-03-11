@@ -26,26 +26,49 @@
 
 .subs-count h2,
 h4 {
-  color: var(--clr-primary-txt);
+  font-size: var(--font-large);
+  color: #2e2e2e;
   text-align: center;
   line-height: 110%;
   margin-bottom: 0 !important;
 }
 
+.info-subs {
+  height: 100%;
+  align-content: space-evenly;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .subs-number {
   display: flex;
 }
-
-.num-container {
+.subs-count {
+  margin-top: 10px;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.274);
-  margin-left: 0.1rem;
-  margin-right: 0.1rem;
+}
+.subs-count h4 {
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  width: 30px;
-  height: 35px;
+  width: fit-content;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.num-container {
+  background-color: rgb(255, 255, 255);
+  height: fit-content;
+  border-radius: 10px;
+}
+.yt-count {
+  letter-spacing: 15px;
+  color: var(--clr-secondary-txt);
+  font-size: var(--font-large);
+  padding: 5px 10px;
+  margin: 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -71,9 +94,8 @@ h4 {
     margin-bottom: 0;
   }
 
-  .container-content-vmario {
-    justify-content: center;
-    align-content: center;
-    display: grid;
+  .subs-count h4,
+  .yt-count {
+    font-size: 17px;
   }
 }

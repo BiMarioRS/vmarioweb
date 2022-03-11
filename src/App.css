@@ -1,12 +1,12 @@
 :root {
-  --clr-primary-txt: rgb(46, 46, 46);
-  --clr-secondary-txt: #005f10;
+  --clr-primary-txt: #2e2e2e;
+  --clr-secondary-txt: #18cf37;
 
   --clr-primary-bck: #ffffff;
   --clr-secondary-bck: linear-gradient(315deg, #5eff6e 0%, #49d44580 74%);
   --gradient-overlay: linear-gradient(
     150deg,
-    rgba(203, 255, 187, 0.808) 20%,
+    rgba(155, 255, 125, 0.508) 20%,
     rgba(129, 255, 255, 0.438) 80%
   );
 
@@ -38,7 +38,7 @@
 }
 
 [data-theme="dark"] {
-  --clr-primary-txt: rgb(255, 255, 255);
+  --clr-primary-txt: rgb(245, 245, 245);
   --clr-secondary-txt: #005f10;
 
   --clr-primary-bck: #f10000;
@@ -46,16 +46,16 @@
 
   --gradient-overlay: linear-gradient(
     315deg,
-    rgba(0, 44, 4, 0.5) 0%,
-    rgba(26, 49, 16, 0.493) 74%
+    rgba(31, 31, 31, 0.5) 0%,
+    rgba(26, 26, 26, 0.493) 74%
   );
 
   --yt-bck: #ffffff;
 
   --overlay-yt: linear-gradient(
     90deg,
-    rgba(48, 0, 0, 0.514) 20%,
-    rgba(0, 0, 0, 0.459) 80%
+    rgba(65, 65, 65, 0.514) 20%,
+    rgba(116, 3, 3, 0.459) 80%
   );
 
   --clr-primary-btn-txt: #ffffff;

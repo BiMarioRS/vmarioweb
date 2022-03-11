@@ -20,25 +20,45 @@ function Boxes() {
           <InfoVmario />
         </div>
         <div className="first-channel-container">
-          <a href="/" target="_blank"><FirstChannel /></a>
+          <a
+            href="https://www.youtube.com/channel/UC106ODNmI-M5BDMx5_2yNMQ"
+            target="_blank"
+          >
+            <FirstChannel />
+          </a>
         </div>
         <div className="second-channel-container">
-        <a href="/" target="_blank"><SecondChannel /></a>
+          <a
+            href="https://www.youtube.com/channel/UCvoOSJdsTp6tmthYm1s_c_w"
+            target="_blank"
+          >
+            <SecondChannel />
+          </a>
         </div>
         <div className="instagram-container">
-        <a href="/" target="_blank"><Instagram /></a>
+          <a href="https://www.instagram.com/vmariors/" target="_blank">
+            <Instagram />
+          </a>
         </div>
         <div className="twitch-container">
-        <a href="/" target="_blank"><Twitch /></a>
+          <a href="https://www.twitch.tv/vmariors" target="_blank">
+            <Twitch />
+          </a>
         </div>
         <div className="twitter-container">
-        <a href="/" target="_blank"><Twitter /></a>
+          <a href="https://twitter.com/vmariors/" target="_blank">
+            <Twitter />
+          </a>
         </div>
         <div className="nauticmc-container">
-        <a href="/" target="_blank"><NauticMC /></a>
+          <a href="https://web.nauticmc.net/" target="_blank">
+            <NauticMC />
+          </a>
         </div>
         <div className="tiktok-container">
-        <a href="/" target="_blank"><Tiktok /></a>
+          <a href="https://www.tiktok.com/@vmariors" target="_blank">
+            <Tiktok />
+          </a>
         </div>
       </div>
     </div>
